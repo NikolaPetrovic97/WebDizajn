@@ -1,0 +1,38 @@
+div{
+	border: 1px solid blue;
+	margin-top: 25px;
+	margin-left: 20px;
+	width: 300px;
+	padding: 15px;
+	display: block;
+	
+}
+
+a{
+	display: inline;
+	border: 1px solid red;
+	padding: 5px;
+	margin: 5px;
+	height: 50px;
+	width: 100px;
+}
+
+body div:first-child{
+	outline-width: 7px;
+	outline-style: dotted;
+	outline-color: red;
+}
+
+body div:last-of-type{
+	outline-width: 7px;
+	outline-style: dashed;
+	outline-color: green;
+	position: relative;
+	top: 20px;
+	
+}
+
+p{
+	border: 1px solid blue;
+}
+

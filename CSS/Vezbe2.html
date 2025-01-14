@@ -1,0 +1,153 @@
+<html>
+
+	<head>
+	
+		<title> HTML - CSS2 </title>
+		
+			<link type="text/css" rel="stylesheet" href="Stilizacija.css" />
+			<style type="text/css" >
+			
+				div{
+					padding-left: 10px;
+				}
+			
+				#content{
+					border-width: 1px;
+					border-style: solid;
+					border-color: blue;
+				}
+				table{
+					width: 300px;
+					height: 100px;
+					border: 1px solid black;
+					border-collapse: collapse;
+				}
+				
+				#content table td,
+				#content table th{
+					border: 1px solid black;	
+				}
+				
+				table td{
+					text-align: center;
+				}
+				
+				table th {
+					background-color: grey;
+					color: white;
+				}
+				
+				p:first-child{
+					color: blue;
+				}
+				
+				p:first-of-type{}
+				
+				p:last-child{}
+				
+				p:last-of-type{}
+				
+				table tbody tr:nth-child(4){
+					background-color: blue;
+					color: red;
+				}
+				
+				div: last-child{
+					border: 1px solid green;
+				}
+				
+				
+			</style>
+			
+	</head>
+	
+	
+	
+	
+	<body>
+	
+	
+	
+		<H2> (H2 tag) Vezbe css - nedelja 2 </H2>
+		
+		<div id="content" >
+		
+			<p> <B> (p tag) Elementi stranice: </B> </p>
+			
+			<table>
+				<thead>
+					<tr>
+						<th> Ime </th>
+						<th> Prezime </th>
+						<th> Smer </th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td> Nikola </td>
+						<td> Petrovic </td>
+						<td> IT </td>
+					</tr>
+					
+					<tr>
+						<td> Marko </td>
+						<td> Tomic </td>
+						<td> IT </td>
+					</tr>
+					
+					<tr>
+						<td> Mihajlo </td>
+						<td> Gogic </td>
+						<td> IT </td>
+					</tr>
+					
+					<tr>
+						<td> Radan </td>
+						<td> Ristic </td>
+						<td> M </td>
+					</tr>
+					
+				</tbody>
+			</table>
+
+				<p> Izvrsite registraciju </p>
+			
+			<br> </br>
+			
+			<form action="#" method="#"> 
+				<fieldset>
+				
+					<legend> Forma </legend>
+				
+					Ime:     <input name="Ime" type="text" /> <br> </br>
+					Prezime: <input name="Prezime" type="text" /> <br> </br>
+					Email:   <input name="Email" type="email" /> <br> </br>
+					1: <input type="radio" name="R" />
+					2: <input type="radio" name="R" />
+					3: <input type="radio" name="R" />
+				
+				</fieldset>
+			
+			</form>	
+			
+			
+			</div>	
+
+		<div>
+		
+			<H2> <I> (H2 tag) Drugi div </I> </H2>
+			
+			<p> (p tag) Elementi diva: </p>
+			
+			<div id="content">
+			</div>
+				
+				
+	</body>
+	
+	
+	
+	
+	
+</html>

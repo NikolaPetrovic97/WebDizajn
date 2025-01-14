@@ -1,0 +1,43 @@
+div{
+	border: 1px solid black;
+}
+
+p{
+	border: 1px solid black;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+#PrviDiv{
+	height: 200px;
+	width: 200px;
+	margin-left: 200px;
+	margin-top: 100px;
+	position: relative;
+}
+
+#PrviDiv div:first-of-type{
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	background-color: gray;
+	top: 130px;
+	right: 0px;
+}
+	
+div:nth-child(2){
+	height: 100px;
+	width: 300px;
+	background-color: gray;
+	margin-top: 50px;
+}
+
+
+div:last-of-type{
+	height: 100px;
+	width: 100px;
+	background-color: gray;
+	position: absolute;
+	top: 0;
+	right: 0;
+}	

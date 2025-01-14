@@ -1,0 +1,96 @@
+<html>
+	
+	<head>
+	
+		<title> Forme </title>
+	
+	</head>
+	
+
+	<body>
+	
+		<form name="PrvaForma" action="putanja/naziv.php" method="GET">
+			
+			Ime <input name="Ime" type="text" placeholder="Unesite ime" required /> <br/> <br/>
+			
+			Prezime <input name="Prezime" type="text" placeholder="Unesite prezime" required /> <br/> <br/>
+			
+			Broj Telefona <input name="Broj Telefona" type="text" placeholder="+381..." required /> <br/> <br/>
+			
+			JMBG <input name="JMBG" type="number" required /> <br/> <br/>
+			
+			Mesto Stanovanja <select name="Mesto Stanovanja" required >
+			
+			
+				<optgroup label="Sumadijski okrug">
+				
+					<option></option>
+					<option value="AR"> Arandjelovac </option>
+					<option value="BG"> Beograd </option>
+					<option value="MLD"> Mladenovac </option>
+					
+				</optgroup>
+				
+				<optgroup label="Moravski okrug" >
+				
+					<option></option>
+					<option value="VP"> Velika Plana </option>
+					<option value="SV"> Svilajnac </option>
+					<option value="SP"> Smederevska Palanka </option>
+					
+				</optgroup>
+				
+			</select> <br/> <br/>
+			
+			
+			<p> Zavrsena skola </p> 
+			
+			<input id="o" name="Zavrsena skola" type="radio" value="Osnovna" checked />
+			 
+			<label for="o"> Osnovna Skola <label>
+			
+			<input id="s" name="Zavrsena skola" type="radio" value="Srednja" />
+			 
+			<label for="s"> Srednja Skola <label>	 
+			
+			<input id="v" name="Zavrsena skola" type="radio" value="Visa" />
+			
+			<label for="v"> Visa Skola <label> 
+			
+			<br> </br>
+			
+			
+			<p> Ispiti za prijavu </p>
+			Teorija sistema <input type="checkbox" name="Ispiti[]" value="TS" />
+			Principi programiranja <input type="checkbox" name="Ispiti[]" value="PP" />
+			Veb dizajn <input type="checkbox" name="Ispiti[]" value="VB" />
+			Osnovi organizacije <input type="checkbox" name="Ispiti[]" value="OS" />
+			Arhitektura racunara <input type="checkbox" name="Ispiti" value="AR" />
+			
+			<br> </br>
+			
+			<input type="file" multiple /> <br> </br>
+			
+			
+			<input name="Ime Iz Liste" list="Izbor"/>
+			<datalist id="Izbor" >
+				<option value="Nikola" checked> 
+				<option value="Radan" > 
+				<option value="Marko" > 
+				<option value="Mihajlo" > 
+			</datalist>	
+			
+			<br> </br> 
+				
+			
+			<input type="submit" /> <br/> <br/>
+			
+			<input type="reset" />
+			
+		</form>
+		
+	</body>
+
+
+
+</html>
